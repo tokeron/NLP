@@ -6,11 +6,11 @@ Classify each word to one of 2 classes; True / False. Specifically here - whethe
 
 **Data**: 
 
-train.tagged, dev.tagged, test.untagged
+train.tagged - imbalanced dramatically, dev.tagged, test.untagged
 
 **Tools**:
 
-pytorch, scikit-learn
+pytorch, scikit-learn, GloVE embedding
 
 **Models**:
  - Classy model - SVM - using GridSearch for hyperparameters.
@@ -23,6 +23,12 @@ pytorch, scikit-learn
 **Results**:
 
 tagged test files based on trained models' predictions.(comp_mx_.tagged files).
+
+f1 score + confusion matrix.
+
+![confusion_mat_glove25_no_balance](https://user-images.githubusercontent.com/62693687/146646376-41a5cbb8-226f-4d74-9569-f40651a087aa.png)
+
+
 
 --------------------------------------------------------------------------------------
 
